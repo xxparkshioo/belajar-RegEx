@@ -19,7 +19,7 @@ Contoh Penggunaan:
 5. dll
 
 
-Dasar-Dasar RegEx dalam JavaScript
+a. Dasar-Dasar RegEx dalam JavaScript
 Di JavaScript, RegEx adalah objek khusus yang bisa dituliskan dengan dua cara:
 
 1. Literal RegEx: Ditulis di antara garis miring (/).
@@ -28,7 +28,7 @@ let greeting = /halo/;
 2. Konstruktor RegExp: Menggunakan fungsi RegExp().
 let greeting = new RegExp('halo');
 
-Metakarakter dalam RegEx
+b. Metakarakter dalam RegEx
 1. dot(.) -> Mencocokkan dengan karakter tunggal kecuali bari baru.
 contoh:
 let text = "That's hot!";
@@ -129,7 +129,7 @@ hasil: 10000
 14. $	-> akhir input.
 
 
- Character Sets
+ c. Character Sets
  1. .	Karakter apa pun kecuali baris baru
 2. \w	-> karakter alfanumerik: [a-zA-Z0-9_]
 3. \W	-> dengan karakter non-alfanumerik: [^\w]
@@ -139,14 +139,14 @@ hasil: 10000
 7. \S	-> dengan karakter non-spasi: [^\s]
 
 
-Lookarounds
+d. Lookarounds
 1. ?=	-> Pandangan Positif
 2. ?!	-> Pandangan Negatif
 3. ?<= ->	Melihat ke belakang positif
 4. ?<!	-> Tampilan Negatif
 
 
-Modifier
+e. Modifier
 1. i	-> Tidak peka huruf besar/kecil: Match tidak peka huruf besar/kecil.
 2. g	-> Pencarian Global: Cocokkan semua instans, bukan hanya yang pertama.
 3. m	-> Multibaris: Karakter meta jangkar bekerja di setiap baris.
